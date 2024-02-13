@@ -1,3 +1,6 @@
+html {
+}
+
 body {
   margin: 0;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
@@ -39,7 +42,7 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
+  margin: 2rem 3rem 7rem 3rem;
   gap: 1rem;
 }
 
@@ -58,9 +61,11 @@ code {
 
 .navigation {
   display: flex;
+  gap: 1rem;
   list-style: none;
   justify-content: center;
   align-items: center;
+  margin-right: 5rem;
 }
 
 .navigation button {
@@ -95,9 +100,13 @@ code {
 
 .status-overall,
 .status-completion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 35rem;
   height: 25rem;
-  background-color: blue;
+  background-color: #dee1e666;
 }
 
 .core-tabs {
@@ -120,7 +129,7 @@ code {
   position: absolute;
   content: "";
   width: 35rem;
-  border-radius: 4rem;
+  border-radius: 6rem;
   height: 100%;
   /* z-index: -1; */
 }
@@ -195,3 +204,13 @@ code {
     background: #DEE1E666; 
     border-radius: 63px; 
 } */
+
+.core-content {
+  display: flex;
+  background-color: #dee1e666;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85rem;
+  height: 40rem;
+}

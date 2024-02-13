@@ -16,8 +16,14 @@ export default function Dashboard() {
   return (
     <>
       <div className="content-status">
-        <div className="status-overall"></div>
-        <div className="status-completion"></div>
+        <div className="status-overall">
+          <h2>OVERALL</h2>
+          <p>coming soon</p>
+        </div>
+        <div className="status-completion">
+          <h2>COMPLETION</h2>
+          <p>coming soon</p>
+        </div>
       </div>
       <div className="core-container">
         <Tabs
@@ -48,7 +54,10 @@ export default function Dashboard() {
           }
           className="core-tabs"
         >
-          CONTENT
+          <div className="core-content">
+            <h2>CONTENT</h2>
+            <p>coming soon</p>
+          </div>
         </Tabs>
       </div>
     </>
