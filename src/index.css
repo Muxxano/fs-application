@@ -1,4 +1,10 @@
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
 html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 body {
@@ -8,6 +14,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  overflow-y: scroll;
 }
 
 h1,
@@ -34,8 +42,8 @@ code {
   background-color: inherit;
   background-size: cover;
   cursor: pointer;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 .app {
@@ -52,8 +60,8 @@ code {
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 50%;
-  transform: translateX(50%);
+  /* right: 50%;
+  transform: translateX(50%); */
   box-shadow: 0px 2px 5px 0.5px #171a1f28;
   border-radius: 18px;
   height: 36px;
@@ -110,8 +118,8 @@ code {
 }
 
 .header-profile {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 
 .navigation {
@@ -127,7 +135,7 @@ code {
   background-color: inherit;
   cursor: pointer;
   opacity: 0.5;
-  font-size: 16px;
+  font-size: 17px;
   padding: 1rem;
 }
 
@@ -135,11 +143,12 @@ code {
   color: #e05858;
   font-weight: bold;
   opacity: 1 !important;
-  border-bottom: 3px solid #e05858;
+  border-bottom: 5px solid #e05858;
 }
 
 .section {
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 1rem;
 }
@@ -148,7 +157,7 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 85rem;
+  width: 82rem;
   height: 35rem;
   padding: 2rem;
 }
@@ -212,16 +221,16 @@ code {
   position: relative;
   justify-content: center;
   align-items: center;
-  gap: 4.5rem;
+  gap: 4rem;
   padding: 0;
 }
 
 .core-tabs menu::after {
-  background-color: #dee1e666;
+  background-color: #dee1e670;
   position: absolute;
   content: "";
   width: 35rem;
-  border-radius: 6rem;
+  border-radius: 7rem;
   height: 100%;
   /* z-index: -1; */
 }
@@ -303,6 +312,6 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 85rem;
+  width: 95rem;
   height: 40rem;
 }
