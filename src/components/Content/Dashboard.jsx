@@ -7,6 +7,8 @@ import roomImage from "../../assets/room.png";
 import spaceImage from "../../assets/space.png";
 import { useState } from "react";
 
+import Status from "../Status/Status.jsx";
+
 export default function Dashboard() {
   const [selectedTab, setSelectedTab] = useState("buildings");
 
@@ -17,20 +19,7 @@ export default function Dashboard() {
   return (
     <>
       <Greet />
-      <div className="content-status">
-        <div className="status-overall-container">
-          <circle className="overall">
-            <h1>0%</h1>
-          </circle>
-          <h2>OVERALL</h2>
-        </div>
-        <div className="status-completion-container">
-          <circle className="completion">
-            <h1>0%</h1>
-          </circle>
-          <h2>COMPLETION</h2>
-        </div>
-      </div>
+      <Status />
       <div className="core-container">
         <Tabs
           buttons={

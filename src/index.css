@@ -80,35 +80,6 @@ code {
   font-size: 18px;
 }
 
-/* Group 1 */
-/* Rectangle 2 */
-/* .rectangle {
-    position: absolute; 
-    top: 88px; 
-    left: 389px; 
-    width: 476px; 
-    height: 36px; 
-    background: #FFFFFFFF; 
-    border-radius: 18px; 
-  }
-.group {
-    position: absolute; 
-    top: 88px; 
-    left: 389px; 
-  } 
-  
-  .text {
-  position: absolute; 
-  top: 93px; 
-  left: 461px; 
-  font-family: Inter; 
-  font-size: 14px; 
-  font-weight: 400; 
-  line-height: 22px; 
-  color: #171A1FFF; 
-}
-  */
-
 .header {
   display: flex;
   position: relative;
@@ -162,6 +133,48 @@ code {
   padding: 2rem;
 }
 
+.progress-circle {
+  transform: rotate(-90deg);
+}
+
+.progress-circle-track {
+  fill: none;
+  stroke: #c5d1f7;
+}
+
+.overall0 {
+  stroke: #b8f5cd;
+}
+
+.progress-circle-bar {
+  fill: none;
+  stroke: #4069e5;
+  stroke-linecap: round;
+  width: 35rem;
+  height: 25rem;
+}
+
+.overall1 {
+  stroke: #1dd75b;
+}
+
+.progress-text {
+  font-family: Arial, sans-serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  transform: rotate(90deg) translateY(-100%);
+}
+
+.overall0-overall1 {
+  fill: #1dd75b;
+}
+
+.comp0-comp1 {
+  fill: #4069e5;
+}
+
 .status-overall-container,
 .status-completion-container {
   display: flex;
@@ -171,43 +184,17 @@ code {
   align-items: center;
   width: 35rem;
   height: 25rem;
-  color: #dee1e666;
-  /* background-color: #dee1e666; */
+  /* color: #dee1e666; */
 }
 
-.overall,
-.completion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-  height: 80%;
-  border-radius: 100%;
+.status-overall-container {
+  color: #1dd75b;
+  font-size: 1.2rem;
 }
 
-.overall h1,
-.completion h1 {
-  font-size: 2.8rem;
-}
-
-.overall {
-  /* border: 3rem solid #1dd75b; */
-  /* border: 3rem solid #b8f5cd; */
-  border: 3rem solid #dee1e666;
-}
-
-.overall h1 {
-  /* color: #b8f5cd; */
-}
-
-.completion {
-  /* border: 3rem solid #1dd75b; */
-  /* border: 3rem solid #b8f5cd; */
-  border: 3rem solid #dee1e666;
-}
-
-.completion h1 {
-  /* color: #b8f5cd; */
+.status-completion-container {
+  color: #4069e5;
+  font-size: 1.2rem;
 }
 
 .core-tabs {
@@ -295,16 +282,6 @@ code {
 .activeTab img {
   width: 8rem;
 }
-
-/* .overlay {
-    position: absolute; 
-    top: 589px; 
-    left: 418px; 
-    width: 437px; 
-    height: 125px; 
-    background: #DEE1E666; 
-    border-radius: 63px; 
-} */
 
 .core-content {
   display: flex;
