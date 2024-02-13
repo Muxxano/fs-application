@@ -31,6 +31,7 @@ code {
 
 .settings {
   background-image: url("../src/assets/Settings.png");
+  background-color: inherit;
   background-size: cover;
   cursor: pointer;
   width: 30px;
