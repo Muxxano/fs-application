@@ -16,13 +16,19 @@ export default function Dashboard() {
   return (
     <>
       <div className="content-status">
-        <div className="status-overall">
+        <div className="status-overall-container">
+          <circle className="overall">
+            <h1>0%</h1>
+          </circle>
           <h2>OVERALL</h2>
-          <p>coming soon</p>
+          {/* <p>coming soon</p> */}
         </div>
-        <div className="status-completion">
+        <div className="status-completion-container">
+          <circle className="completion">
+            <h1>0%</h1>
+          </circle>
           <h2>COMPLETION</h2>
-          <p>coming soon</p>
+          {/* <p>coming soon</p> */}
         </div>
       </div>
       <div className="core-container">

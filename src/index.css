@@ -99,15 +99,52 @@ code {
   padding: 2rem;
 }
 
-.status-overall,
-.status-completion {
+.status-overall-container,
+.status-completion-container {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 35rem;
   height: 25rem;
-  background-color: #dee1e666;
+  color: #dee1e666;
+  /* background-color: #dee1e666; */
+}
+
+.overall,
+.completion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 80%;
+  border-radius: 100%;
+}
+
+.overall h1,
+.completion h1 {
+  font-size: 2.8rem;
+}
+
+.overall {
+  /* border: 3rem solid #1dd75b; */
+  /* border: 3rem solid #b8f5cd; */
+  border: 3rem solid #dee1e666;
+}
+
+.overall h1 {
+  /* color: #b8f5cd; */
+}
+
+.completion {
+  /* border: 3rem solid #1dd75b; */
+  /* border: 3rem solid #b8f5cd; */
+  border: 3rem solid #dee1e666;
+}
+
+.completion h1 {
+  /* color: #b8f5cd; */
 }
 
 .core-tabs {
