@@ -1,6 +1,5 @@
 import Tab from "../UI/Tabs/Tab";
 import Tabs from "../UI/Tabs/Tabs";
-import ColorWrap from "../UI/ColorWrap/ColorWrap";
 
 import buildingImage from "../../assets/building.png";
 import roomImage from "../../assets/room.png";
