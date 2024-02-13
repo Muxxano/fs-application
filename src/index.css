@@ -47,6 +47,60 @@ code {
   gap: 1rem;
 }
 
+.greetings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  box-shadow: 0px 2px 5px 0.5px #171a1f28;
+  border-radius: 18px;
+  height: 36px;
+  width: 476px;
+  cursor: pointer;
+}
+
+.greetings:hover {
+  transition: 0.2s;
+  box-shadow: 0px 2px 5px 0.5px #171a1f42;
+}
+
+.greetings span {
+  color: #e05858;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+/* Group 1 */
+/* Rectangle 2 */
+/* .rectangle {
+    position: absolute; 
+    top: 88px; 
+    left: 389px; 
+    width: 476px; 
+    height: 36px; 
+    background: #FFFFFFFF; 
+    border-radius: 18px; 
+  }
+.group {
+    position: absolute; 
+    top: 88px; 
+    left: 389px; 
+  } 
+  
+  .text {
+  position: absolute; 
+  top: 93px; 
+  left: 461px; 
+  font-family: Inter; 
+  font-size: 14px; 
+  font-weight: 400; 
+  line-height: 22px; 
+  color: #171A1FFF; 
+}
+  */
+
 .header {
   display: flex;
   position: relative;

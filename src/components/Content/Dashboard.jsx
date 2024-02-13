@@ -1,5 +1,6 @@
-import Tab from "../UI/Tabs/Tab";
-import Tabs from "../UI/Tabs/Tabs";
+import Tab from "../UI/Tabs/Tab.jsx";
+import Tabs from "../UI/Tabs/Tabs.jsx";
+import Greet from "../UI/Greet/Greet.jsx";
 
 import buildingImage from "../../assets/building.png";
 import roomImage from "../../assets/room.png";
@@ -15,20 +16,19 @@ export default function Dashboard() {
 
   return (
     <>
+      <Greet />
       <div className="content-status">
         <div className="status-overall-container">
           <circle className="overall">
             <h1>0%</h1>
           </circle>
           <h2>OVERALL</h2>
-          {/* <p>coming soon</p> */}
         </div>
         <div className="status-completion-container">
           <circle className="completion">
             <h1>0%</h1>
           </circle>
           <h2>COMPLETION</h2>
-          {/* <p>coming soon</p> */}
         </div>
       </div>
       <div className="core-container">
