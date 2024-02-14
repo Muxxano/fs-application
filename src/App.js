@@ -1,8 +1,8 @@
 import "./App.css";
 import Header from "./components/Header/Header.jsx";
 import Section from "./components/UI/Section/Section.jsx";
-import Dashboard from "./components/Content/Dashboard.jsx";
-import Manage from "./components/Content/Manage.jsx";
+import Dashboard from "./components/Dashboard/Dashboard.jsx";
+import Manage from "./components/Manage/Manage.jsx";
 
 import { useState } from "react";
 

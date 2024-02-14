@@ -8,6 +8,7 @@ import spaceImage from "../../assets/space.png";
 import { useState } from "react";
 
 import Status from "../Status/Status.jsx";
+import CoreContent from "../CoreContent/CoreContent.jsx";
 
 export default function Dashboard() {
   const [selectedTab, setSelectedTab] = useState("buildings");
@@ -49,10 +50,7 @@ export default function Dashboard() {
           }
           className="core-tabs"
         >
-          <div className="core-content">
-            <h2>CONTENT</h2>
-            <p>coming soon</p>
-          </div>
+          <CoreContent />
         </Tabs>
       </div>
     </>
